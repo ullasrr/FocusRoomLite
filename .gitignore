@@ -1,0 +1,60 @@
+# === General ===
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+
+
+# === Node.js Dependencies ===
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# === Build outputs ===
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.cache/
+
+backend/build/
+backend/dist/
+backend/tmp/
+backend/temp/
+backend/.cache/
+
+# === Test coverage ===
+**/coverage/
+**/jest-cache/
+**/.nyc_output/
+
+# === OS-specific ===
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# === IDEs ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === TypeScript ===
+**/*.tsbuildinfo
+
+# === Logs ===
+**/*.log
+
+# === Optional ===
+frontend/.env.local
+backend/.env.local
+frontend/.env.development
+backend/.env.development
+
+# === Optional lock files ===
+# Uncomment this if you're using only one type of lock file
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
