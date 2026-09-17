@@ -49,3 +49,8 @@ GEMINI_API_KEY=your_gemini_api_key
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+
+## Screenshots
+![Screenshot 1](./images/image1.png)
+![Screenshot 2](./images/image2.png)
